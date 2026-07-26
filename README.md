@@ -18,12 +18,16 @@ npm run dev
 
 Open http://127.0.0.1:5173
 
-## Azure Static Web Apps
+## Deploy (GitHub Pages)
 
-1. Create an Azure Static Web App.
-2. Add GitHub secret `AZURE_STATIC_WEB_APPS_API_TOKEN`.
-3. Push to `main` — the workflow builds and deploys `dist`.
+Site: https://nuthanm.github.io/exvyn/
+
+1. In the repo: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
+2. Push to `main` (or run the **Deploy to GitHub Pages** workflow).
+3. Wait for the workflow to finish, then open the URL above.
+
+Excel stays in the browser — upload or use the sample workbooks on the landing page.
 
 ## Stack
 
-React · TypeScript · Vite · SheetJS · html-to-image · Azure Static Web Apps
+React · TypeScript · Vite · SheetJS · html-to-image · GitHub Pages

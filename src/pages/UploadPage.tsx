@@ -78,7 +78,7 @@ export function UploadPage() {
               disabled={busy}
               onClick={() =>
                 void handleExample(
-                  '/samples/resource-metrics.xlsx',
+                  `${import.meta.env.BASE_URL}samples/resource-metrics.xlsx`,
                   'resource-metrics.xlsx',
                 )
               }
@@ -91,7 +91,10 @@ export function UploadPage() {
               className="text-link"
               disabled={busy}
               onClick={() =>
-                void handleExample('/samples/example-one.xlsx', 'example-one.xlsx')
+                void handleExample(
+                  `${import.meta.env.BASE_URL}samples/example-one.xlsx`,
+                  'example-one.xlsx',
+                )
               }
             >
               example one
@@ -102,7 +105,10 @@ export function UploadPage() {
               className="text-link"
               disabled={busy}
               onClick={() =>
-                void handleExample('/samples/example-two.xlsx', 'example-two.xlsx')
+                void handleExample(
+                  `${import.meta.env.BASE_URL}samples/example-two.xlsx`,
+                  'example-two.xlsx',
+                )
               }
             >
               example two
