@@ -20,10 +20,9 @@ Open http://127.0.0.1:5173
 
 ## Deploy (Vercel)
 
-1. Push this repo to GitHub.
-2. Import the repo in [Vercel](https://vercel.com/new) (or deploy via the Cursor Vercel extension).
-3. Framework preset: Vite. Build command: `npm run build`. Output: `dist`.
-4. After deploy, open your `*.vercel.app` URL.
+Site: https://exvyn.vercel.app
+
+GitHub: https://github.com/nuthanm/exvyn — connected to Vercel, so pushes to `main` deploy automatically.
 
 Excel stays in the browser — upload or use the sample workbooks on the landing page.
 
