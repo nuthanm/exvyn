@@ -18,16 +18,15 @@ npm run dev
 
 Open http://127.0.0.1:5173
 
-## Deploy (GitHub Pages)
+## Deploy (Vercel)
 
-Site: https://nuthanm.github.io/exvyn/
-
-1. In the repo: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
-2. Push to `main` (or run the **Deploy to GitHub Pages** workflow).
-3. Wait for the workflow to finish, then open the URL above.
+1. Push this repo to GitHub.
+2. Import the repo in [Vercel](https://vercel.com/new) (or deploy via the Cursor Vercel extension).
+3. Framework preset: Vite. Build command: `npm run build`. Output: `dist`.
+4. After deploy, open your `*.vercel.app` URL.
 
 Excel stays in the browser — upload or use the sample workbooks on the landing page.
 
 ## Stack
 
-React · TypeScript · Vite · SheetJS · html-to-image · GitHub Pages
+React · TypeScript · Vite · SheetJS · html-to-image · Vercel
